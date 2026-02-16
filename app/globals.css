@@ -488,17 +488,19 @@ footer {
     min-height: auto;
   }
   .hero-text { 
-    order: 2;  /* Changed from 1 to 2 - text now below image */
+    order: 2;
     padding: 40px 24px;
     min-height: auto;
   }
   .hero-img { 
-    order: 1;  /* Changed from 2 to 1 - image now on top */
+    order: 1;
     min-height: 300px;
-    padding: 0 24px;  /* Added padding to match text block */
+    padding: 0;  /* Remove padding from container */
+    margin: 0 24px;  /* Use margin instead to create space */
   }
   .hero-img img {
     height: 300px;
+    width: 100%;  /* Image will now respect the margin */
   }
   .hero-img-placeholder { 
     min-height: 300px; 
