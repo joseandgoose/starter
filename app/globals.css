@@ -991,4 +991,13 @@ footer {
     flex-shrink: 0;
   }
 
+  .press-main {
+    padding: 0 24px;  /* Changed from 0 to 0 24px */
+  }
+  
+  .press-group {
+    padding: 48px 0;  /* Changed from 48px 24px to 48px 0 */
+  }
+
+
 }
