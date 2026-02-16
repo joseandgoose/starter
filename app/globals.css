@@ -968,4 +968,27 @@ footer {
   .contact-section {
     padding: 52px 24px;
   }
+  .jump-inner {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  
+  .jump-inner::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+  
+  .jump-inner a { 
+    padding: 0 14px;
+    font-size: 0.72rem;
+    display: inline-flex;
+  }
+  
+  .jump-label {
+    flex-shrink: 0;
+  }
+
 }
