@@ -978,6 +978,8 @@ footer {
   
   .press-group {
     padding: 48px 0;
+    grid-template-columns: 1fr;  /* Add this - single column on mobile */
+    gap: 32px;  /* Add this - reduce gap */
   }
   
   .about-section {
