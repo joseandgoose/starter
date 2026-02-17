@@ -72,8 +72,8 @@ export default function Home() {
           <article className="tile">
             <div className="tile-visual"><img src="/title2.jpg" alt="Writing" /></div>
             <p className="tile-category">Writing</p>
-            <h3 className="tile-name">The Looking Glass</h3>
-            <p className="tile-desc">Work under construction - check back in 3 months!</p>
+            <h3 className="tile-name">Projects and Research</h3>
+            <p className="tile-desc">See what we're working on!</p>
             <div className="tile-actions">
               <a href="/writing" className="btn btn-fill">Read Essays</a>
               {/* <a href="#" className="btn btn-outline">Subscribe</a> */}
