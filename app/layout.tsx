@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Cormorant, Raleway } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
+
 
 const cormorant = Cormorant({
   variable: "--font-cormorant",
@@ -29,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${cormorant.variable} ${raleway.variable}`}>
         {children}
+        <GoogleAnalytics gaId="G-9GQ3BD74ZE" />
       </body>
     </html>
   );
