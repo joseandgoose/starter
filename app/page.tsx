@@ -25,7 +25,7 @@ export default function Home() {
           <span className="jump-label">Jump to</span>
           <a href="/about">Who We Are</a>
           <a href="/work">Our Work</a>
-          <a href="#writing">Writing</a>
+          <a href="/writing">Writing</a>
           <a href="/contact">Contact</a>
         </div>
       </nav>
@@ -64,7 +64,7 @@ export default function Home() {
             <h3 className="tile-name">Education, Finance, Strategy, and Product</h3>
             <p className="tile-desc">Range of experiences and learning.</p>
             <div className="tile-actions">
-              <a href="#" className="btn btn-outline">Experience</a>
+              <a href="/work" className="btn btn-outline">Experience</a>
             </div>
           </article>
 
@@ -75,8 +75,8 @@ export default function Home() {
             <h3 className="tile-name">The Looking Glass</h3>
             <p className="tile-desc">Work under construction - check back in 3 months!</p>
             <div className="tile-actions">
-              {/* <a href="#" className="btn btn-fill">Read Essays</a>
-              <a href="#" className="btn btn-outline">Subscribe</a> */}
+              <a href="/writing" className="btn btn-fill">Read Essays</a>
+              {/* <a href="#" className="btn btn-outline">Subscribe</a> */}
             </div>
           </article>
 
