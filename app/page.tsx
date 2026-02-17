@@ -37,7 +37,7 @@ export default function Home() {
         <div className="hero-text">
           <p className="hero-eyebrow">Product &amp; Strategy</p>
           <h2 className="hero-title">
-            former wall street bee<br />
+            former trading floor new yorker<br />
             <em>now AI enabled product strategist</em><br />
             
           </h2>

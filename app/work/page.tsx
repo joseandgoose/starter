@@ -121,7 +121,7 @@ export default function Work() {
             <p className="press-group-eyebrow">Strategy & Operations</p>
             <h2 className="press-group-title">Instacart</h2>
             <p className="press-group-desc">
-              Part of the operations team during Instacart's rapid scale-up during the pandemic.
+              Los Angeles market team lead during Instacart's rapid scale-up during the pandemic.
             </p>
           </div>
           <div className="press-list">
