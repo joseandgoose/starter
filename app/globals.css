@@ -93,19 +93,6 @@ header {
   max-width: 1320px;
   margin: 0 auto;
   padding: 52px 48px 28px;
-  border-bottom: none;
-}
-
-.page-header::after {
-  content: "";
-  display: block;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
-  height: 1px;
-  background: var(--rule);
-  margin-top: 28px;
 }
 
 .page-header h1 {
@@ -174,6 +161,12 @@ header {
 
 .jump-inner a:hover {
   background: var(--forest-pale);
+}
+
+.jump-bar {
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  background: var(--white);
 }
 
 /* ═══════════════════════════════════════
