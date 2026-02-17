@@ -1226,6 +1226,17 @@ footer {
   font-weight: 500;
 }
 
+.post-body ul li a {
+  color: var(--forest);
+  text-decoration: none;
+  border-bottom: 1px solid var(--forest);
+  transition: opacity 0.2s ease;
+}
+
+.post-body ul li a:hover {
+  opacity: 0.6;
+}
+
 .post-body code {
   font-family: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, monospace;
   font-size: 0.84em;
