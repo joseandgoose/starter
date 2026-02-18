@@ -54,21 +54,20 @@ export default function HowIBuiltThis() {
 
           {/* ── INGREDIENTS ── */}
           <h2>Ingredients</h2>
-          <ul>
-            <li><strong>Claude.ai</strong> — your AI sous chef and pair programmer <em>($200/yr)</em></li>
-            <li><strong>Vercel</strong> — hosting platform and auto-deploy pipeline <em>(free)</em></li>
-            <li><strong>GitHub</strong> — code repository, Vercel creates this for you <em>(free)</em></li>
-            <li><strong>Next.js</strong> — the React framework running the site <em>(free)</em></li>
-            <li><strong>VS Code</strong> — code editor for making changes locally <em>(free)</em></li>
-            <li><strong>Node.js / npm</strong> — runs your dev server and manages packages <em>(free)</em></li>
-            <li><strong>Terminal</strong> — where you type commands to navigate, install, and deploy <em>(free)</em></li>
-            <li><strong>Squarespace</strong> — domain registrar, where joseandgoose.com was purchased <em>($54 for 3 years)</em></li>
-            <li><strong>Cloudflare</strong> — DNS management and security layer <em>(free)</em></li>
-            <li><strong>Google Forms + Google Sheets</strong> — contact form backend and submission alerts <em>(free)</em></li>
-            <li><strong>Google Analytics</strong> — visitor tracking and traffic sources <em>(free)</em></li>
-            <li><strong>Vercel Analytics</strong> — lightweight complementary analytics <em>(free)</em></li>
-          </ul>
-
+            <ul>
+              <li><strong><a href="https://claude.ai" target="_blank" rel="noopener noreferrer">Claude.ai</a></strong> — your AI sous chef and pair programmer <em>($200/yr)</em></li>
+              <li><strong><a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a></strong> — hosting platform and auto-deploy pipeline <em>(free)</em></li>
+              <li><strong><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></strong> — code repository, Vercel creates this for you <em>(free)</em></li>
+              <li><strong><a href="https://nextjs.org" target="_blank" rel="noopener noreferrer">Next.js</a></strong> — the React framework running the site <em>(free)</em></li>
+              <li><strong><a href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer">VS Code</a></strong> — code editor for making changes locally <em>(free)</em></li>
+              <li><strong><a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">Node.js / npm</a></strong> — runs your dev server and manages packages <em>(free)</em></li>
+              <li><strong>Terminal</strong> — where you type commands to navigate, install, and deploy <em>(free)</em></li>
+              <li><strong><a href="https://www.squarespace.com" target="_blank" rel="noopener noreferrer">Squarespace</a></strong> — domain registrar, where joseandgoose.com was purchased <em>($54 for 3 years)</em></li>
+              <li><strong><a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer">Cloudflare</a></strong> — DNS management and security layer <em>(free)</em></li>
+              <li><strong><a href="https://docs.google.com/forms" target="_blank" rel="noopener noreferrer">Google Forms</a> + <a href="https://sheets.google.com" target="_blank" rel="noopener noreferrer">Google Sheets</a></strong> — contact form backend and submission alerts <em>(free)</em></li>
+              <li><strong><a href="https://analytics.google.com" target="_blank" rel="noopener noreferrer">Google Analytics</a></strong> — visitor tracking and traffic sources <em>(free)</em></li>
+              <li><strong><a href="https://vercel.com/analytics" target="_blank" rel="noopener noreferrer">Vercel Analytics</a></strong> — lightweight complementary analytics <em>(free)</em></li>
+            </ul>
           {/* ── SESSION 1 ── */}
           <h2>Session 1: From Zero to a Styled Homepage</h2>
           <p className="post-session-meta">Evening, Day 1 — ~3 hours</p>

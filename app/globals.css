@@ -1226,14 +1226,14 @@ footer {
   font-weight: 500;
 }
 
-.post-body ul li a {
+.post-body ul li strong a {
   color: var(--forest);
   text-decoration: none;
   border-bottom: 1px solid var(--forest);
   transition: opacity 0.2s ease;
 }
 
-.post-body ul li a:hover {
+.post-body ul li strong a:hover {
   opacity: 0.6;
 }
 
