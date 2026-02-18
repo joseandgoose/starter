@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const posts = [
   {
+    slug: "gemini-grades",
+    title: "Gemini Grades the Website Build Difficulty",
+    subtitle: "Google\u2019s AI evaluates how hard it actually was to build joseandgoose.com from scratch",
+    date: "February 17, 2026",
+    readTime: "4 min read",
+  },
+  {
     slug: "how-i-built-this",
     title: "How I Built JoseAndGoose.com Using Claude",
     subtitle: "A non-developer builds a website from scratch with AI in three sessions",
