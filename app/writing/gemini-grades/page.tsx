@@ -37,9 +37,9 @@ export default function GeminiGrades() {
         {/* ── BODY ── */}
         <div className="post-body">
 
-          <p>According to the article, the process is beginner-friendly and designed for someone with no prior coding experience. The author, a non-developer, completed the site in about 6–7 hours spread across three sessions.</p>
+          <p>Gemini's take was that the process is beginner-friendly and designed for someone with no prior coding experience. A non-developer, completed the site in about 6–7 hours spread across three sessions.</p>
 
-          <p>However, &ldquo;easy&rdquo; is relative. While the AI (<strong>Claude</strong>) handles the actual coding, you still have to navigate several technical tools. Here is a breakdown of the difficulty based on the steps provided:</p>
+          <p>However, &ldquo;easy&rdquo; is relative. While the AI (<strong>Claude</strong>) handles the actual coding, you still have to navigate several technical tools. Here is Gemini's breakdown of the difficulty based on the steps provided:</p>
 
           {/* ── EASY ── */}
           <h2>1. The &ldquo;Easy&rdquo; Parts (High Success Rate)</h2>
