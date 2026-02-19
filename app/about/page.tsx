@@ -10,6 +10,7 @@ export default function About() {
             <li><a href="/work">Work</a></li>
             <li><a href="/writing">Writing</a></li>
             <li><a href="/contact">Contact</a></li>
+            <li><a href="/numerator" style={{background:'#F3D104',color:'#0a0a0f',padding:'6px 10px',borderRadius:'5px',fontWeight:700,fontSize:'8px',letterSpacing:'1.2px',textTransform:'uppercase',textAlign:'center',display:'inline-flex',alignItems:'center',justifyContent:'center',whiteSpace:'nowrap',lineHeight:1,textDecoration:'none',transition:'transform 0.15s, box-shadow 0.15s'}}>Play Numerator</a></li>
           </ul>
         </div>
       </header>
@@ -49,7 +50,7 @@ export default function About() {
               Before product, Jose taught
               sixth grade through Teach for America,
               spent time on the trading floor at Goldman Sachs, and led Strategy &amp; Operations teams at
-              DoorDash and Instacart. It&apos;s an unusual path — but each stop left its mark.
+              DoorDash and Instacart. Each stop left its mark.
               The trading floor taught financial literacy. The classroom taught empathy to human learning. Ops taught
               him how to move fast without breaking things.
             </p>
@@ -82,7 +83,7 @@ export default function About() {
             <p className="about-body">
               Goose is the kind of dog who takes his morning hikes seriously, plays fetch
               like he has something to prove, and has perfected the art of the sun nap.
-              He has strong opinions about everything — especially squirrels.
+              He has strong opinions about everything — especially sticks.
             </p>
             <p className="about-body">
               The site is named after him. He knows it.
