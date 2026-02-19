@@ -1,19 +1,6 @@
 export default function About() {
   return (
     <>
-      {/* ── NAV ── */}
-      <header>
-        <div className="nav-wrap">
-          <a href="/" className="site-name">Jose and Goose</a>
-          <ul className="nav-links">
-            <li><a href="/about">About</a></li>
-            <li><a href="/work">Work</a></li>
-            <li><a href="/writing">Writing</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/numerator" style={{background:'#F3D104',color:'#0a0a0f',padding:'6px 10px',borderRadius:'5px',fontWeight:700,fontSize:'11px',letterSpacing:'1.2px',textTransform:'uppercase',textAlign:'center',display:'inline-flex',alignItems:'center',justifyContent:'center',whiteSpace:'nowrap',lineHeight:1,textDecoration:'none',transition:'transform 0.15s, box-shadow 0.15s'}}>Play Numerator</a></li>
-          </ul>
-        </div>
-      </header>
 
       {/* ── PAGE TITLE BLOCK ── */}
       <div className="page-header">

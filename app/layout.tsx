@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant, Raleway } from "next/font/google";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import Nav from "./Nav";
 import "./globals.css";
 
 
@@ -30,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${cormorant.variable} ${raleway.variable}`}>
+        <Nav />
         {children}
         <GoogleAnalytics gaId="G-9GQ3BD74ZE" />
       </body>
