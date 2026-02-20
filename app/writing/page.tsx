@@ -1,6 +1,13 @@
 import Link from "next/link";
 
 const posts = [
+    {
+    slug: "how-i-built-numerator",
+    title: "How I Built Numerator Using Claude",
+    subtitle: "A non-developer builds a full-stack web game from concept to deployment in four sessions",
+    date: "February 19, 2026",
+    readTime: "8 min read",
+  },
   {
     slug: "gemini-grades",
     title: "Gemini Grades the Website Build Difficulty",
